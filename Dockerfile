@@ -6,6 +6,6 @@ RUN rabbitmq-plugins enable --offline rabbitmq_stomp
 RUN rabbitmq-plugins enable --offline rabbitmq_web_stomp
 RUN rabbitmq-plugins enable --offline rabbitmq_message_timestamp
 RUN rabbitmq-plugins enable --offline rabbitmq_clusterer
-RUN rabbitmq-plugins --offline enable rabbitmq_peer_discovery_k8s
+RUN rabbitmq-plugins enable --offline rabbitmq_peer_discovery_k8s
 
 EXPOSE 15671 15672 15674 61613 61614
