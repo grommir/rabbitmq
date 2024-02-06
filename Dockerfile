@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6-management
+FROM rabbitmq:management
 
 ADD rabbitmq_message_timestamp-20171215-3.6.x.ez /usr/lib/rabbitmq/plugins
 
